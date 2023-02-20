@@ -4,6 +4,10 @@ export const ProfileCard = styled.div`
   border: 1px solid grey;
   width: 350px;
   border-radius: 10px;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  :hover {
+    transform: scale(1.05);
+  }
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 `;

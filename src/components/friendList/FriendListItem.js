@@ -1,13 +1,16 @@
 import PropTypes from 'prop-types';
 import { GrStatusGoodSmall } from 'react-icons/gr';
+import { ListItem, StatusImg, NameFriend } from './FriendList.styled';
 
 export const FriendListItem = ({ avatar, isOnline, name }) => {
   return (
-    <div>
-      <GrStatusGoodSmall />
+    <ListItem>
+      <StatusImg isOnline={isOnline}>
+        <GrStatusGoodSmall />
+      </StatusImg>
       <img src={avatar} alt={name} width="48" />
-      <p>{name}</p>
-    </div>
+      <NameFriend>{name}</NameFriend>
+    </ListItem>
   );
 };
 
