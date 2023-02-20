@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const List = styled.ul`
   max-width: 400px;
   margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
   gap: 10px;

@@ -2,6 +2,9 @@ import styled from 'styled-components';
 import { getRandomHexColor } from './getRandomHexColor';
 
 export const Section = styled.section`
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
   width: 520px;
   margin-top: 24px;
   padding: 12px;
